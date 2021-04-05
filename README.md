@@ -78,3 +78,28 @@ Nest is [MIT licensed](LICENSE).
 ## Packages
 
 - @nestjs/config - Use to setup envirnoment for application.
+- nest-csv-parser - parse csv to json
+- json-2-csv - parse json to csv
+- @hapi/joi - For validation
+- class-validator - to validate query params
+- uuid - to genreate unique id
+- @nestjs/swagger - for api documentaion
+- swagger-ui-express - to serve auto-generated swagger-ui
+
+## Envirnomet
+
+- use .env.dev for developmet
+- use .env.test for testing
+
+## Api (Local)
+
+- For document
+  http://localhost:3000/docs
+
+- To create client
+  POST http://localhost:3000/users
+
+- To fetch Users
+  GET http://localhost:3000/users
+  With pagination
+  GET http://localhost:3000/users?limit=4&&offset=0
