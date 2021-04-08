@@ -94,12 +94,12 @@ Nest is [MIT licensed](LICENSE).
 ## Api (Local)
 
 - For document
-  http://localhost:3000/docs
+  http://localhost:8080/docs
 
 - To create client
-  POST http://localhost:3000/users
+  POST http://localhost:8080/users
 
 - To fetch Users
-  GET http://localhost:3000/users
+  GET http://localhost:8080/users
   With pagination
-  GET http://localhost:3000/users?limit=4&&offset=0
+  GET http://localhost:8080/users?limit=4&&offset=0
